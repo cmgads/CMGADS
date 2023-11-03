@@ -4,7 +4,7 @@ Code and data of the paper **Multi-grained Contextual Code Representation Learni
 
 ## Intro
 
-COMU is a pre-training model for automated commit message generation, which extract multi-grained information from the changed code at the line and AST levels to generate commit messages automatically. In this repository, we provide our code and the data we use.
+COMU is a pre-training model for automated commit message generation, which extract multi-grained information from the changed code at the line and AST levels to generate commit messages automatically. In this repository, we provide our code and the data we use.
 
 ## Environment
 + Python == 3.8.0
