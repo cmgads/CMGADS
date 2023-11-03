@@ -4,7 +4,7 @@ Code and data of the paper **Multi-grained Contextual Code Representation Learni
 
 ## Intro
 
-COMU is a pre-training model for automated commit message generation, which extract multi-grained information from the changed code at the line and AST levels to generate commit messages automatically. In this repository, we provide our code and the data we use.
+COMU is a pre-training model for automated commit message generation, which extract multi-grained information from the changed code at the line and AST levels to generate commit messages automatically. In this repository, we provide our code and the data we use.
 
 ## Environment
 + Python == 3.8.0
@@ -13,6 +13,11 @@ COMU is a pre-training model for automated commit message generation, which extr
 + jpype1 == 1.4.0
 
 ## Dataset
+
+### Dataset MACR
+```
+    https://drive.google.com/drive/folders/1zuKDTNhPL5XzjUtWzEzEHfh8AxYVo4Sx?usp=sharing
+```
 
 The folder `dataset` contains all the data, including the folder `dataset_saved`, the folder `fine_tune` and the folder `pre_train`. The folder `dataset_saved` was already preprocessed and can be directly used to train or evaluate the model, saved as pickle binary files. The folder `fine_tune` and the folder `pre_train` contains all raw data.
 The dataset loading code is located in the `sources/data/dataset.py`  and `sources/data/data_utils.py` files.
