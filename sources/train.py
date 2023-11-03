@@ -41,7 +41,7 @@ def train(args, tokenizer=None,
     for split in splits:
         datasets[split] = init_dataset(args=args,
                                        mode=enums.TRAINING_MODE_FINE_TUNE,
-                                       task=enums.TASK_COMMNET_GENERATION
+                                       task=enums.TASK_COMMNET_GENERATION,
                                        stage=split)
         logger.info(f'The size of {split} set: {len(datasets[split])}')
     logger.info('Datasets loaded successfully')
